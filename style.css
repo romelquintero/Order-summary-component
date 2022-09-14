@@ -49,6 +49,7 @@ body {
   font-size: 1.6rem;
   text-align: center;
   line-height: 1.5;
+  letter-spacing: 0em;
   color: hsl(224, 23%, 55%);
 }
 
@@ -64,10 +65,12 @@ body {
 }
 
 .price {
-  margin-right: 9rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  margin-right: 8rem;
+}
+
+.price h4 {
+  letter-spacing: -0.4px;
+  margin-bottom: 0.5rem;
 }
 
 .icon {
@@ -120,8 +123,9 @@ body {
 }
 
 .link {
-  font-weight: 600;
+  font-weight: 700;
   color: hsl(245, 75%, 52%);
+  letter-spacing: -0.4px;
 }
 
 .link:hover,
